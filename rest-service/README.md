@@ -1,4 +1,4 @@
-#Spring Boot Rest Service Application
+# Spring Boot Rest Service Application
 
 This application is a very basic rest service created using Spring boot
 
