@@ -12,6 +12,7 @@
     <modules>
         <module>rest-service</module>
         <module>securing-web</module>
+        <module>consuming-rest</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
