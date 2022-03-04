@@ -7,17 +7,13 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.function.Supplier;
 
-@SpringBootApplication(exclude = JacksonAutoConfiguration.class)
+@SpringBootApplication
 @Slf4j
 public class ScopedBeanInjectionProblemApplication implements CommandLineRunner{
 
