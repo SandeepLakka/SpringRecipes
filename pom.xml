@@ -20,6 +20,7 @@
         <module>securing-web</module>
         <module>consuming-rest</module>
         <module>scoped-bean-injection-problem</module>
+        <module>transactional-support</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
